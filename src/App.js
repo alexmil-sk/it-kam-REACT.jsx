@@ -1,25 +1,40 @@
-import logo from './logo.svg';
+//*__КОМПОНЕНТА - ЭТО ФУНКЦИЯ, ВОЗВРАЩАЮЩАЯ РАЗМЕТКУ JSX
+//*__КОМПОНЕНТА - ЭТО ТЭГ
+
+import React from 'react';//*__импорт JSX из React
 import './App.css';
+import Header from './components/Header';
+import Navbar from './components/Navbar';
+import Profile from './components/Profile';
+import Footer from './components/Footer';
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+	return (
+		<div className="app-wrapper">
+			<Header />
+			<Navbar />
+			<Profile />
+			<Footer />
+		</div>
+	);
+};
+
+// const App = () => {//, APP - ЭТО ФУНКЦИОНАЛЬНОЕ ВЫРАЖЕНИЕ - КОМПОНЕНТА
+// 	return (
+// 		<div className="App">
+// 			<ul>
+// 				<li>css</li>
+// 				<li>html</li>
+// 				<li>js</li>
+// 				<li>react</li>
+// 			</ul>
+// 		</div>
+// 	);
+// }
 
 export default App;
+
+
+
+
