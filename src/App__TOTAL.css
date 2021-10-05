@@ -1,0 +1,81 @@
+/*, TOTAL ============================================================*/
+
+.app-wrapper {
+	display: grid;
+	grid-gap: 10px;
+	max-width: 1200px;
+	margin: 0 auto;
+	grid-template: repeat(3,auto) / 200px 1fr;
+	grid-template-areas:
+	'header header'
+	'side-bar main'
+	'footer footer';
+	box-sizing: border-box;
+}
+
+/*, HEADER ===========================================================*/
+
+.app-header {
+	grid-area: header;
+	text-align: left;
+	/* background: lightskyblue; */
+	padding: 15px;
+	background: -moz-linear-gradient(left, rgba(236, 232, 157, 1) 0%, rgba(122, 211, 232, 1) 50%, rgba(14, 132, 242, 1) 100%);
+	/* Chrome10-25,Safari5.1-6 */
+	background: -webkit-linear-gradient(left, rgba(236, 232, 157, 1) 0%, rgba(122, 211, 232, 1) 50%,
+	rgba(14, 132, 242, 1) 100%);
+	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	background: linear-gradient(to right, rgba(236, 232, 157, 1) 0%, rgba(122, 211, 232, 1) 50%, rgba(14, 132, 242, 1) 100%);
+}
+
+.app-header img {
+	border-radius: 50%;
+	outline:4px solid rgb(40, 199, 235);
+}
+
+/*, NAVBAR ============================================================*/
+.app-nav {
+	grid-area: side-bar;
+	background-color: lightsalmon;
+	padding: 15px;
+}
+
+.app-nav a {
+	text-decoration: none;
+}
+
+.app-nav__item {
+	color:maroon;
+}
+
+/*, PROFILE =============================================================*/
+
+.app-profile {
+	grid-area: main;
+	text-align: center;
+	padding: 15px;
+}
+
+.app-profile__user-card {
+	display: flex;
+}
+
+.app-profile__user-post {
+	color:gray;
+}
+
+/*, FOOTER ===============================================================*/
+
+.app-footer {
+	grid-area: footer;
+	text-align: center;
+	background: lightskyblue;
+	padding: 15px;
+	background: -moz-linear-gradient(left, rgba(236, 232, 157, 1) 0%, rgba(122, 211, 232, 1) 50%, rgba(14, 132, 242, 1) 100%);
+	/* Chrome10-25,Safari5.1-6 */
+	background: -webkit-linear-gradient(left, rgba(236, 232, 157, 1) 0%, rgba(122, 211, 232, 1) 50%,
+		rgba(14, 132, 242, 1) 100%);
+	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	background: linear-gradient(to right, rgba(236, 232, 157, 1) 0%, rgba(122, 211, 232, 1) 50%, rgba(14, 132, 242, 1) 100%);
+}
+

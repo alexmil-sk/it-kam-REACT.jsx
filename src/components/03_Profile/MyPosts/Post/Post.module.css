@@ -1,0 +1,19 @@
+/*, POST =============================================================*/
+
+.profile__userPost_old {
+	display: flex;
+	color: gray;
+}
+
+.profile__userPost_old img {
+	width: 50px;
+	height: 50px;
+	padding: 5px 15px;
+}
+.profile__userPost_old_text {
+	display: flex;
+	flex-direction: column;
+}
+.profile__userPost_old_text span {
+	border-top: 1px solid gray;
+}

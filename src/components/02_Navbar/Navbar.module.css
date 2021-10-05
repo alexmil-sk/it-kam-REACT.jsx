@@ -1,0 +1,21 @@
+/*, NAVBAR ============================================================*/
+.nav {
+	grid-area: side-bar;
+	background-color: lightsalmon;
+	padding: 15px;
+}
+
+.nav__item {
+	font-size: 18px;
+	font-weight: 500;
+	margin: 10px 0;
+}
+
+.nav__item_link {
+	color: maroon;
+	text-decoration: none;
+}
+.active {
+	color: white;
+	text-decoration: none;
+}

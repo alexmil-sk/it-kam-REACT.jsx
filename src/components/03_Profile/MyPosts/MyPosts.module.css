@@ -1,0 +1,19 @@
+/*, MYPOSTS =============================================================*/
+
+.profile__userPost {
+	color: gray;
+}
+
+.profile__userPost_new {
+	color: blue;
+}
+.profile__userPost_old {
+	display: flex;
+	color: gray;
+}
+
+.profile__userPost_old img{
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+}

@@ -1,0 +1,14 @@
+/*, FOOTER ===============================================================*/
+
+.footer {
+	grid-area: footer;
+	text-align: center;
+	background: lightskyblue;
+	padding: 15px;
+	background: -moz-linear-gradient(left, rgba(236, 232, 157, 1) 0%, rgba(122, 211, 232, 1) 50%, rgba(14, 132, 242, 1) 100%);
+	/* Chrome10-25,Safari5.1-6 */
+	background: -webkit-linear-gradient(left, rgba(236, 232, 157, 1) 0%, rgba(122, 211, 232, 1) 50%,
+			rgba(14, 132, 242, 1) 100%);
+	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	background: linear-gradient(to right, rgba(236, 232, 157, 1) 0%, rgba(122, 211, 232, 1) 50%, rgba(14, 132, 242, 1) 100%);
+}
