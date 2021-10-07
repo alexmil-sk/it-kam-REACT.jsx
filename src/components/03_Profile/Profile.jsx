@@ -1,17 +1,17 @@
 import React from 'react';
 import MyPosts from './MyPosts/MyPosts';
+import ProfileInfo from './ProfileInfo/ProfileInfo.jsx';
 import classes from './Profile.module.css';
 
-function Profile() {
+function Profile(props) {
 	return (
 		<div className={classes.profile}>
 			<div className={classes.profile__img}></div>
 			<h1>Карточка пользователя</h1>
-			<div className={classes.profile__userCard}>
-				<img src="https://cs13.pikabu.ru/avatars/1873/x1873132-1972677953.png" height="150" alt="logoUser" />
-				<p>Описание пользователя</p>
-			</div>
-			<MyPosts />
+			<ProfileInfo />
+			<MyPosts
+				myPostsData={props.myPostsData}
+				placeholder="Текст нового сообщения пользователя" />
 		</div>
 	);
 }

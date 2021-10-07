@@ -5,6 +5,7 @@
 	text-align: center;
 	background: lightskyblue;
 	padding: 15px;
+	border-radius: 60px 0 0 60px;
 	background: -moz-linear-gradient(left, rgba(236, 232, 157, 1) 0%, rgba(122, 211, 232, 1) 50%, rgba(14, 132, 242, 1) 100%);
 	/* Chrome10-25,Safari5.1-6 */
 	background: -webkit-linear-gradient(left, rgba(236, 232, 157, 1) 0%, rgba(122, 211, 232, 1) 50%,

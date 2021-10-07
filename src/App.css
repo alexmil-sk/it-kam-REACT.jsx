@@ -1,8 +1,11 @@
 /*, TOTAL ============================================================*/
+body {
+	padding: 0 10px;
+}
 
 .app-wrapper {
 	display: grid;
-	grid-gap: 10px;
+	grid-gap: 8px;
 	max-width: 1200px;
 	height: auto;
 	margin: 0 auto;
@@ -12,6 +15,15 @@
 	'side-bar main'
 	'footer footer';
 	box-sizing: border-box;
+}
+
+.app-wrapper__content {
+	background: none;
+	border:1px solid gray;
+}
+
+a {
+	text-decoration: none;
 }
 
 /*, HEADER ===========================================================*/

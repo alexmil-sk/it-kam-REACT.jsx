@@ -3,17 +3,24 @@
 .profile__userPost_old {
 	display: flex;
 	color: gray;
+	margin: 15px 0;
 }
 
 .profile__userPost_old img {
 	width: 50px;
 	height: 50px;
 	padding: 5px 15px;
+	border-radius: 50%;
 }
 .profile__userPost_old_text {
 	display: flex;
 	flex-direction: column;
+	background-color: white;
+	border: 1px solid lightgray;
+	padding: 10px;
+
 }
-.profile__userPost_old_text span {
+.profile__userPost_old_text_like {
 	border-top: 1px solid gray;
+	text-align: left;
 }

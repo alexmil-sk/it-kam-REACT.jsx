@@ -1,0 +1,8 @@
+.dialog__message {
+	background: yellow;
+}
+
+.active {
+	font-weight: 700;
+	background: none;
+}

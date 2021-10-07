@@ -1,15 +1,15 @@
 import React from 'react';
 import classes from './Post.module.css';
 
-function Post() {
+function Post(props) {
 	return (
 		<div className={classes.profile__userPost_old}>
 			<img src="https://abc-telegram.ru/image/bitco_novosti.jpg" alt="Avatar Bitcoin" />
 			<div className={classes.profile__userPost_old_text}>
-				<p>Сообщение 1</p>
-				<div>
-					<span >Like&nbsp;</span>
-					<span>Dislike</span>
+				<p>{props.userName} {props.age} {props.message}</p>
+				<div className={classes.profile__userPost_old_text_like}>
+					<span>Like&nbsp;{props.likesCount}&nbsp;|</span>
+					<span>&nbsp;Dislike&nbsp;{props.dislikesCount}</span>
 				</div>
 			</div>
 		</div>
