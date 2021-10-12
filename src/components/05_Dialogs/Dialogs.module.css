@@ -15,20 +15,33 @@
 
 .dialogs__names {
 	padding: 0 5px;
-	margin: 0 5px;
+	margin: 0 5px 0 0;
 	border: 1px solid gray;
 	background:white;
 	border-radius: 10px;
 }
 
 .dialogs__messages {
-	padding: 0 5px;
+	padding: 15px;
 	border: 1px solid gray;
-	margin: 0 5px;
+	margin: 0 0 0 5px;
 	background:white;
 	border-radius: 10px;
 }
 
+.dialogs__newMsg {
+	display: flex;
+	flex-direction: column;
+	margin-top: 15px;
+}
 
+.dialogs__newMsg textarea {
+	margin-bottom: 15px;
+	height: 80px;
+}
 
-
+.dialogs__newMsg button {
+	width: 100px;
+	height: 40px;
+	align-self: left;
+}

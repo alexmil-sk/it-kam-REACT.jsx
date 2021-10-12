@@ -1,0 +1,14 @@
+.navBarUsers {
+	
+}
+.navBarUsers_item {
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 10px;
+
+}
+.navBarUsers img {
+	width: 80px;
+	border-radius: 50%;
+}

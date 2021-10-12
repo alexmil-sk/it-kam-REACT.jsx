@@ -11,6 +11,10 @@ function Profile(props) {
 			<ProfileInfo />
 			<MyPosts
 				myPostsData={props.myPostsData}
+				newValueText={props.newValueText}
+				// addPost={props.addPost}
+				// updateNewPostText={props.updateNewPostText}
+				dispatch={props.dispatch}
 				placeholder="Текст нового сообщения пользователя" />
 		</div>
 	);

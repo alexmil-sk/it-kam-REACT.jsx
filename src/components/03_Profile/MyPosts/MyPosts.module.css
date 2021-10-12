@@ -3,6 +3,7 @@
 .profile__userPost {
 	color: gray;
 	background: lightyellow;
+	padding:5px;
 }
 
 .profile__userPost_new {

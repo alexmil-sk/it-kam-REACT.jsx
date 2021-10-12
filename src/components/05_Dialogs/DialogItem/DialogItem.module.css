@@ -1,6 +1,18 @@
 .dialog__name {
 	background: greenyellow;
+	margin: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
+
+.dialog__name img{
+	width: 80px;
+	border-radius: 50%;
+	box-shadow: 0 0 10px 2px;
+
+}
+
 
 .active {
 	font-weight: 700;
